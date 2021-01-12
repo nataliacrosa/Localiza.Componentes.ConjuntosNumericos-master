@@ -46,6 +46,7 @@ namespace Localiza.Componentes.ConjuntosNumericos.Services
 
                 for (int contador = numerosDivisores.Divisores.Count; contador > 0; contador--)
                 {
+                    if (Math.Sqrt(numeroEntrada) != numerosDivisores.Divisores.ElementAt(contador - 1))
                     numerosDivisores.Divisores.Add(numeroEntrada / numerosDivisores.Divisores.ElementAt(contador - 1));
                 }
 
