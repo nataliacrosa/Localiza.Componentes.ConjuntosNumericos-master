@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Localiza.Componentes.ConjuntosNumericos.Api", "Localiza.Componentes.ConjuntosNumericos\Localiza.Componentes.ConjuntosNumericos.Api.csproj", "{1989F9C1-79D7-4F34-9E33-8E92D89CF853}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Localiza.Componentes.ConjutosNumericos.Tests", "Localiza.Componentes.ConjutosNumericos.Test\Localiza.Componentes.ConjutosNumericos.Tests.csproj", "{B479708B-FD57-4373-9FE9-97379A2FF580}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1989F9C1-79D7-4F34-9E33-8E92D89CF853}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1989F9C1-79D7-4F34-9E33-8E92D89CF853}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1989F9C1-79D7-4F34-9E33-8E92D89CF853}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1989F9C1-79D7-4F34-9E33-8E92D89CF853}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B479708B-FD57-4373-9FE9-97379A2FF580}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B479708B-FD57-4373-9FE9-97379A2FF580}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B479708B-FD57-4373-9FE9-97379A2FF580}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B479708B-FD57-4373-9FE9-97379A2FF580}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7515E07D-E818-4479-AD16-5B84B584734E}
+	EndGlobalSection
+EndGlobal
